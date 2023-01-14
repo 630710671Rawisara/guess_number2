@@ -90,7 +90,7 @@ class _GamePageState extends State<GamePage> {
 
                         setState(() {
                           if(result == GuessResult.correct){
-                            _feedBackText = 'Correct♥!!';
+                            _feedBackText = 'Correct!!♥';
                           }else if(result == GuessResult.tooHigh){
                             _feedBackText = 'TOO High, Please try again';
                           }else{
